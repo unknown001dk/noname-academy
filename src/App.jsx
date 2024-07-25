@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { About, Course, Home, Projects } from './pages/inc.jsx';
 import { Login, Register, ForgotPassword } from './pages/users/inc.jsx';
 import NotFound from './components/NotFound.jsx';
+import Header from './components/Header.jsx';
 
 function App() {
   return (
